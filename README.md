@@ -5,14 +5,18 @@ Input Description
 
 You will receive all the driver routes. Not all drivers have a route of the same length
 #Example 1:
+   ab      abc
+A) 3 1 2 3 3 1 2 3 3 1 2 3 3 1 2 3
 
-3 1 2 3
-3 2 3 1
-4 2 3 4 5
+   ab  abc
+B) 3 2 3 1 3 2 3 1 3 2 3 1 3 2 3 1
+       abc
+C) 4 2 3 4 5 4 2 3 4 5 4 2 3 4 5 4 2 3 4 5
 
 #Example 2:
 
 2 1 2
+
 5 2 8
 
 #Output Description
