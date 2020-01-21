@@ -55,7 +55,7 @@ public class GossipBusDriverShould {
   @Test
   public void itShouldReturnOneIfTwoBusDriversStartingAtTheSecondStop() {
 
-    int[][] routes = new int[][]{{5,1},{6,1}};
+    int[][] routes = new int[][]{{1},{6,1}};
 
     GossipBusDriverKata kata = new GossipBusDriverKata(routes);
 
